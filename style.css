@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images.jpg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(245, 245, 115);
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 2px black;
+    border-radius: 30px;
+    max-width: 500px;
+    padding: 30px;
+    background-color: rgb(245, 245, 115);
+
+}
+
+input {
+    background-color:rgb(255, 255, 158);
+    border-radius: 5px;
+}
+
+.content {
+    margin-bottom: 25px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+#button {
+    margin-left: 18px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.pokemon {
+    background-color:rgb(255, 255, 158);
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#list {
+    background-color:rgb(255, 255, 158);
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.random {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(255, 255, 158);
+    margin-top: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+img {
+    width: 100px;
+}

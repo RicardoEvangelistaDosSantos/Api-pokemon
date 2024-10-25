@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>API</title>
+</head>
+<body>
+    <header>
+        <h1>PokeApi</h1>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="content">
+                <input id="pokemon" type="text" placeholder="Pesquise um Pokemon">
+                <button type="submit" onclick="search()">Pesquisar</button>
+                <div class="pokemon">
+                    <p id="search"></p>
+                    <p id="habilidades"></p>
+                </div>
+            </div>
+            <div class="content">
+                <button id="button" onclick="listPokemon()">Gerar uma lista de Pokemons</button>
+                <p id="list"></p>
+            </div>
+            <div class="content">
+                <button id="button" onclick="randomPokemon()">Gerar um Pokemón Aleatório</button>
+                <div class="random"><p id="element"  style="display: flex"></p></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
